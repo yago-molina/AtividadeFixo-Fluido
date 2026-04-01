@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+/* 
+.container-fixo {
+    width: 800px;
+    background-color: #ffcccc;
+    border: 2px solid red;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.container-fluido {
+    width: 80%;
+    max-width: 800px;
+    background-color: #ccffcc;
+    border: 2px solid red;
+    margin-bottom: 20px;
+    padding: 20px;
+} */
+
+.galeria {
+    display: flex; /* flex wrap e gap*/
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    /*width 30%, overflow, escondido*/
+    width: 30%;
+    overflow: hidden;
+}
+
+.foto {
+    /*100% do display bloquadp*/
+    display: block;
+    height: auto;
+    width: 80%;
+}
+
+@media (max-width: 600px){
+    .card {
+        width: 100%;
+    }
+}
