@@ -42,4 +42,4 @@ Para replicar "A Galeria que não Quebra", os seguintes passos e regras técnica
 # 📂 Como executar o projeto
 1. Clone este repositório:
 ```bash
-(https://github.com/yago-molina/AtividadeFixo-Fluido.git)
+(git clone [https://github.com/yago-molina/AtividadeFixo-Fluido.git])
